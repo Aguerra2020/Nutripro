@@ -1,0 +1,38 @@
+/* Estilos personalizados para el encabezado */
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 1rem;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #a4ebf3;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+}
+
+.navbar-brand img {
+    transition: transform 0.3s;
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.1);
+}
+
+/* Estilos personalizados para el pie de página */
+footer {
+    background: linear-gradient(90deg, #2b6777, #52b69a);
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .list-inline-item a {
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+footer .list-inline-item a:hover {
+    color: #a4ebf3;
+}

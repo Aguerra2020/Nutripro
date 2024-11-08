@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nutripro - Nutrición y Salud">
+    <meta name="author" content="Nutripro">
+    <title>Nutripro - Nutrición en Cada Bocado</title>
+    <!-- Favicon -->
+    <link rel="icon" href="logo2.png" type="image/png">
+    <!-- Bootstrap CSS desde CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Tu archivo CSS personalizado -->
+    <!-- Animaciones CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        /* Estilos CSS para desplazamiento suave */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Transición personalizada del carrusel */
+        .carousel-item {
+            transition: transform 1.5s ease-in-out;
+        }
+    </style>
+</head>
+<body id="home">
+
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-lg py-3" style="background: linear-gradient(90deg, #2b6777, #52b69a);">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center animate__animated animate__fadeInLeft" href="#home">
+                <img src="logo2.png" alt="Logo Nutripro" style="height: 40px; margin-right: 10px;">
+                <span style="font-weight: bold; font-size: 1.5rem;">Nutripro</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#product">Producto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Slider -->
+    <section id="main-slider" class="container-fluid p-0">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Primera imagen del carrusel -->
+                <div class="carousel-item active" style="background-image: url('baner.jpg'); height: 500px; background-size: cover; background-position: center;">
+                    <div class="carousel-caption d-none d-md-block animate__animated animate__fadeInUp">
+                        <h2 class="text-white">Nutrición en Cada <span>Bocado</span></h2>
+                        <p class="lead">Descubre el snack saludable que nació de un proyecto universitario.</p>
+                        <a class="btn btn-success btn-lg" href="#product">Ver Producto</a>
+                    </div>
+                </div>
+                <!-- Segunda imagen del carrusel -->
+                <div class="carousel-item" style="background-image: url('baner2.jpg'); height: 500px; background-size: cover; background-position: center;">
+                    <div class="carousel-caption d-none d-md-block animate__animated animate__fadeInUp">
+                        <h2 class="text-white">Sabor y Nutrición Perfectos</h2>
+                        <p class="lead">Una mezcla saludable para tu estilo de vida activo.</p>
+                        <a class="btn btn-success btn-lg" href="#about">Conócenos</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Controles del carrusel -->
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="about" class="container my-5">
+        <div class="section-header text-center mb-4">
+            <h2 class="animate__animated animate__fadeInDown">Sobre Nosotros</h2>
+            <p class="lead animate__animated animate__fadeIn">Nutripro es el resultado de un proyecto universitario transformado en un emprendimiento exitoso.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6 animate__animated animate__fadeInLeft">
+                <h3>Nuestra Historia</h3>
+                <p>Nutripro nació como un proyecto universitario, impulsado por la pasión por la nutrición y la innovación. Lo que comenzó como una idea para una tarea se convirtió rápidamente en un negocio comprometido a ofrecer snacks saludables y nutritivos.</p>
+                <p>Con un enfoque en ingredientes de alta calidad como la quinua y los arándanos, trabajamos para crear productos que no solo sean deliciosos, sino que también contribuyan al bienestar de nuestros consumidores.</p>
+                <a href="#contact" class="btn btn-success mt-3">Contáctanos</a>
+            </div>
+            <div class="col-md-6 animate__animated animate__fadeInRight">
+                <img src="logo.png" alt="Equipo Nutripro" class="img-fluid rounded shadow-sm">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección del Producto -->
+    <section id="product" class="container my-5">
+        <div class="section-header text-center mb-4">
+            <h2 class="animate__animated animate__zoomIn">Nuestro Producto</h2>
+            <p class="lead animate__animated animate__fadeInUp">Conoce nuestro snack estrella, ideal para acompañarte en cualquier momento del día.</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center animate__animated animate__fadeIn">
+                <img src="galleta1.png" alt="Producto Nutripro" class="img-fluid rounded mb-4 shadow-lg">
+                <h3>Galleta de Quinua y Arándanos</h3>
+                <p>Saludable y deliciosa, nuestra galleta está hecha con ingredientes naturales y es rica en proteínas. Perfecta para estudiantes y personas activas que buscan un snack nutritivo y conveniente.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Preguntas Frecuentes (FAQ) -->
+    <section id="faq" class="container my-5">
+        <div class="section-header text-center mb-4">
+            <h2 class="animate__animated animate__fadeInDown">Preguntas Frecuentes (FAQ)</h2>
+            <p class="lead animate__animated animate__fadeInUp">Resolvemos las dudas más comunes de nuestros clientes.</p>
+        </div>
+        <div class="accordion" id="faqAccordion">
+            <div class="card">
+                <div class="card-header" id="faqHeading1">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                            ¿De qué están hechas las galletas Nutripro?
+                        </button>
+                    </h2>
+                </div>
+                <div id="faqCollapse1" class="collapse show" aria-labelledby="faqHeading1" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Nuestras galletas están hechas con ingredientes naturales de alta calidad, como quinua y arándanos, para proporcionar un snack nutritivo y delicioso.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="faqHeading2">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                            ¿Son aptas para personas con alergias?
+                        </button>
+                    </h2>
+                </div>
+                <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Sí, nuestras galletas no contienen gluten y están hechas sin ingredientes artificiales. Sin embargo, revisa nuestra etiqueta para asegurarte de que no haya alérgenos que puedan afectarte.
+                    </div>
+                </div>
+            </div>
+            <!-- Agrega más preguntas y respuestas aquí -->
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact" class="container my-5">
+        <div class="section-header text-center mb-4">
+            <h2 class="animate__animated animate__fadeInDown">Contacto</h2>
+            <p class="lead animate__animated animate__fadeInUp">Envíanos tus consultas o comentarios, estaremos encantados de responderte.</p>
+        </div>
+        <form class="animate__animated animate__fadeIn">
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <input type="text" class="form-control" placeholder="Nombre" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <input type="email" class="form-control" placeholder="Correo Electrónico" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="5" placeholder="Mensaje" required></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-success btn-lg">Enviar Mensaje</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center bg-primary text-white py-4" style="background: linear-gradient(90deg, #2b6777, #52b69a);">
+        <div class="container">
+            <p>&copy; 2024 Nutripro. Diseñado y Desarrollado por Nutripro</p>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="#" class="text-white" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="text-white" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="text-white" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="text-white" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- JavaScript de Bootstrap y librerías adicionales -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
